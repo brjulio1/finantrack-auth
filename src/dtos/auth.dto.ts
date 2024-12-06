@@ -1,4 +1,4 @@
-export class AuthModel {
+export class AuthDto {
     id: string;
 
     username: string;
