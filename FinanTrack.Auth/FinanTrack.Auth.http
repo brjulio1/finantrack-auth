@@ -1,0 +1,6 @@
+@FinanTrack.Auth_HostAddress = http://localhost:32774
+
+GET {{FinanTrack.Auth_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
