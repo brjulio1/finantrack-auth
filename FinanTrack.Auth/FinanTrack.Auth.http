@@ -1,6 +1,15 @@
-@FinanTrack.Auth_HostAddress = http://localhost:32774
+@FinanTrack.Auth_HostAddress = http://localhost:32776
+
+POST {{FinanTrack.Auth_HostAddress}}/auth/
+Content-Type: application/json
+
+{
+    "Username": "juliot",
+    "Password": "123@abc"
+}
+
+###
 
 GET {{FinanTrack.Auth_HostAddress}}/weatherforecast/
 Accept: application/json
-
-###
+Authentication: Bearer abc
